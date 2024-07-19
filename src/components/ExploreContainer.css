@@ -5,6 +5,11 @@
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .container strong {
@@ -21,4 +26,20 @@
 
 .container a {
   text-decoration: none;
+}
+
+.qrcode{
+  width : 80%;
+  margin: 30px;
+  text-transform: initial;
+ 
+
+}
+
+.scancode{
+  width : 80%;
+  margin: 30px;
+ 
+  text-transform: initial;
+
 }
